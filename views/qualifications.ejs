@@ -1,0 +1,66 @@
+<%- include('partials/header') %>
+<%- include('partials/navbar') %>
+
+<div id="main">
+<section id="multiple-column-form">
+    <div class="row match-height">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-doctorate_date">Qualifications</h4>
+                </div>
+                <div class="card-content">
+                    <div class="card-body">
+                        <form class="form">
+                            <div class="row">
+                                <div class="col-md-8 col-12">
+                                    <div class="form-group">
+                                        <label for="doctorate">Doctorates (if any)</label>
+                                        <input type="text" id="doctorate" class="form-control"
+                                        name="doctorate">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <div class="form-group">
+                                        <label for="doctorate_date">Date</label>
+                                        <input type="date" id="doctorate_date" class="form-control"
+                                        name="doctorate_date">
+                                    </div>
+                                </div>
+                                <div class="col-md-9 col-12">
+                                    <div class="form-group">
+                                        <label for="masters">Masters Degree (if any)</label>
+                                        <input type="text" id="masters" class="form-control"
+                                        name="masters">
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-12">
+                                    <div class="form-group">
+                                        <label for="masters_date">Date</label>
+                                        <input type="date" id="masters_date" class="form-control"
+                                        name="masters_date">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="form-group">
+                                        <label for="other_qualifications">Other Relevant Academic or Professional Qualifications</label>
+                                        <textarea type="text" id="other_qualifications" rows="4" class="form-control"
+                                        name="other_qualifications"></textarea>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12 d-flex justify-content-end">
+                                    <button type="submit"
+                                        class="btn btn-primary me-1 mb-1">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+<%- include('partials/footer') %>
